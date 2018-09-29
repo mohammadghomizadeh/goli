@@ -1,0 +1,66 @@
+/* Uploader Styles */
+
+.pa_photolist li { display: inline; float: left; margin-left: 10px; margin-bottom: 10px; }
+
+.progressWrapper { width: 357px; overflow: hidden; background-color: #000; }
+
+.progressContainer { margin: 1px; padding: 4px; border: solid 1px #E8E8E8; background-color: #F7F7F7; overflow: hidden; }
+
+.progressBarInProgress,
+.progressBarComplete,
+.progressBarError { font-size: 0px; width: 0%; height: 2px; background-color: blue; text-align: left; margin-top: 2px; float: left; }
+.progressBarComplete { width: 100%; background-color: green; visibility: hidden; }
+.progressBarError { width: 100%; background-color: red; visibility: hidden; }
+.progressBarStatus { margin-top: 2px; text-align: left; white-space: nowrap; }
+a.progressCancel,
+a.progressCancel:link,
+a.progressCancel:active,
+a.progressCancel:visited,
+a.progressCancel:hover { font-size: 0px; display: block; height: 14px; width: 14px; background-image: url(Images/Uploader/cancelbutton.gif); background-repeat: no-repeat; background-position: -14px 0px; float: right; }
+    a.progressCancel:hover { background-position: 0px 0px; }
+
+#ColorPickerDiv { display: block; display: none; position: relative; border: 1px solid #777; background: #fff; }
+
+    #ColorPickerDiv TD.color { cursor: pointer; font-size: xx-small; font-family: 'Arial', 'Microsoft Sans Serif'; }
+        #ColorPickerDiv TD.color label { cursor: pointer; }
+
+.ColorPickerDivSample { margin: 0px 0px 0px 4px; border: solid 1px #000; padding: 0px 10px; position: relative; cursor: pointer; }
+
+
+#tabs-myarticles { padding-top: 10px; }
+/*ADMIN OPTIONS*/
+.admin-options-news ul { margin: 0; }
+    .admin-options-news ul li { overflow: hidden; }
+/*.icon-admin-options {
+    float: right;
+}*/
+/*.icon-admin-options a{ display: table; width: 35px; height: 35px; }*/
+.admin-options-news .icon-admin-options { border: 6px solid rgba(0, 0, 0, 0.3); border-radius: 50%; width: 75px; height: 75px; margin: 20px auto; display: block; text-align: center; top: 10px; left: 0; right: 0; z-index: 5; box-shadow: 0 0 0 0px rgba(255,255,255,0.5), 0 0 0 0px rgba(3, 108, 129, 0.5); }
+    .admin-options-news .icon-admin-options i { color: #000; font-size: 2.5em; line-height: 75px; }
+
+
+.admin-options-news ul li .box-admin-options { min-height: 235px; background: #e6e5e5; position: relative; overflow: hidden; box-shadow: 0 5px 11px -5px rgba(0,0,0,0.4); min-height: 235px; border-bottom: 3px solid #c3c1c1; }
+.admin-options-news .text-admin-options span { text-align: center; display: block; padding: 0 15px; line-height: 20px; color: #403b3b; font-weight: normal; }
+.box-admin-options:hover .icon-admin-options { animation: shady 4s linear infinite; }
+
+@keyframes shady {
+    0% { box-shadow: 0 0 0 0px rgba(255,255,255,0.5), 0 0 0 0px rgba(3, 108, 129, 0.5); }
+    20% { box-shadow: 0 0 0 100px rgba(255,255,255,0), 0 0 0 0px rgba(3, 108, 129, 0); }
+    20.1% { box-shadow: 0 0 0 0px rgba(255,255,255,0.5), 0 0 0 0px rgba(3, 108, 129, 0.5); }
+    50% { box-shadow: 0 0 0 0px rgba(255,255,255,0.5), 0 0 0 0px rgba(3, 108, 129, 0.5); }
+    70% { box-shadow: 0 0 0 100px rgba(255,255,255,0), 0 0 0 0px rgba(3, 108, 129, 0); }
+    70.1% { box-shadow: 0 0 0 0px rgba(255,255,255,0.5), 0 0 0 0px rgba(3, 108, 129, 0.5); }
+    100% { box-shadow: 0 0 0 0px rgba(255,255,255,0.5), 0 0 0 0px rgba(3, 108, 129, 0.5); }
+}
+
+
+
+
+.admin-options-news ul li.col-sm-3 {
+    float: right;
+    overflow: hidden;
+    padding: 15px;
+    width: 25%;
+    box-sizing: border-box;
+}
+.admin-options-news .icon-admin-options{ background:none;}

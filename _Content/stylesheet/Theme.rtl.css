@@ -1,0 +1,293 @@
+﻿.LiveForm.Default { font-size: 12px; margin-bottom: 20px; line-height: normal; padding: 15px; background-color: #fff; border: 1px solid #CCCCCC; border-radius: 6px; background-color: #ffffff; }
+.LiveForm.Default td,.LiveForm.Default th,.LiveForm.Default table,.LiveForm.Default .Field input,.LiveForm.Default .Field select,.LiveForm.Default .Field textarea,.LiveForm.Default .Field button { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.LiveForm.Default ul { list-style: none outside none; margin: 0; padding: 0; position: relative; }
+.LiveForm.Default ul li { list-style: none; margin: 0; }
+.LiveForm.Default .Field-Container { position: relative; }
+.LiveForm.Default .MatrixWrapper .Field-Container { position: static; }
+.viewport-sm .LiveForm.Default .Field.Fullname .Field-Container input[type="text"] { margin-left: 16px; }
+.LiveForm.Default .Field.Address table tr td:first-child { padding-left: 16px; }
+.LiveForm.Default .Field.Address table tr:nth-child(1) td,
+.LiveForm.Default .Field.Address table tr:nth-child(2) td { padding-left: 0; }
+.LiveForm.Default .Field.Fullname .fullname-container,
+.LiveForm.Default .Field.ScaleRating input[type="radio"],
+.LiveForm.Default .Field.Fullname .Field-SubLabel-TextBox:last-child input[type="text"] { margin-left: 0; }
+.LiveForm.Default .Field input[type="radio"],
+.LiveForm.Default .Field input[type="checkbox"] { margin-left: 8px; }
+.LiveForm.Default input[type="submit"]:hover,
+.LiveForm.Default input[type="button"]:hover { background: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1)); }
+/*----------------Heading----------------*/
+.LiveForm.Default .Field.Heading div.Field-Container-Wide { padding: 0 0 5px; border-bottom: 1px solid #ccc; }
+.LiveForm.Default .Field.Heading div.Field-Container-Wide .SubHeader { font-style: italic; }
+.LiveForm.Default .Field.Heading div.Field-Container-Wide .Header { margin-bottom: 5px; }
+.LiveForm.Default .Field.Heading h1 { font-size: 22px; color: inherit; font-weight: bold; border-bottom: 1px solid #ccc; padding: 0 0 5px; margin: 0 0 5px; }
+.LiveForm.Default .Field.Heading h2 { font-size: 18px; color: inherit; font-weight: bold; border-bottom: 1px solid #ccc; padding: 0 0 5px; margin: 0 0 5px; }
+.LiveForm.Default .Field.Heading h3 { font-size: 14px; color: inherit; font-weight: bold; text-transform: none; border-bottom: 1px solid #ccc; padding: 0 0 5px; margin: 0 0 5px; }
+/*Default Submit Button Alignment css */
+.LiveForm.Default .Submit-Align-left { text-align: right; }
+.LiveForm.Default .Submit-Align-Center { text-align: center; }
+.LiveForm.Default .Submit-Align-right { text-align: left; }
+/*Default Field Validation css */
+.LiveForm.Default .Field.Matrix.Checkb.Required table,
+.LiveForm.Default .Field.Matrix.Radiob.Required table,
+.LiveForm.Default .Field.Required input,
+.LiveForm.Default .Field.Required textarea,
+.LiveForm.Default .Field.Required .plupload_filelist_footer,
+.LiveForm.Default .Field.Required select,
+.LiveForm.Default .Field.Required.Radiobutton table,
+.LiveForm.Default .Field.Required.Checkbox table,
+.LiveForm.Default .Field.Required.ScaleRating table,
+.LiveForm.Default .Field.Required .StarRatingRequired { border-right: solid red 5px; padding-right: 5px; }
+.LiveForm.Default .Field.Required.Radiobutton table,
+.LiveForm.Default .Field.Required.Checkbox table { padding-right: 6px; display: inline-block; }
+/*Default (Input/Textarea/Label/Select) Validation css */
+.LiveForm.Default label.error { padding: 5px; color: red; }
+.LiveForm.Default input.error, .LiveForm.Default textarea.error, .LiveForm.Default select.error { border: 2px solid red; border-radius: 3px 3px 3px 3px; padding-right: 5px; }
+.LiveForm.Default label.InlineEdit form input { width: 100px !important; }
+.LiveForm.Default .Field-Tooltip { position: absolute; left: -275px; top: 0px; max-width: 250px; min-width: 250px; border: 4px solid #333; background: #fff; border-radius: 6px 6px; box-shadow: 0px 2px 4px #666; white-space: normal; display: none; z-index: 99999; }
+.LiveForm.Default .Field.Datetime .Field-Tooltip { left: -295px; }
+.LiveForm.Default .Field-Tooltip-Arrow { border-color: transparent #333 transparent transparent; border-style: solid; border-width: 10px; right: -24px; top: 7px; position: absolute; height: 0; width: 0; }
+/*----------------Common----------------*/
+.LiveForm.Default .Field-SubLabel-TextBox { position: relative; vertical-align: top; }
+.LiveForm.Default .Field .Field-Container label,
+.LiveForm.Default .Field .Field-Container-Wide label,
+.LiveForm.Default .Field .Field-SubLabel-Container { font-size: 11px; margin: 2px 2px 0 0; }
+.LiveForm.Default .Field.Radiobutton .Field-Container label,
+.LiveForm.Default .Field.Radiobutton .Field-Container-Wide label,
+.LiveForm.Default .Field.Checkbox .Field-Container label,
+.LiveForm.Default .Field.Checkbox .Field-Container-Wide label { font-size: 1em; margin: 0; }
+.LiveForm.Default .Field-Sub-Label label,
+.LiveForm.Default .Address table label,
+.LiveForm.Default .Field-SubLabel-Container { display: block; }
+.LiveForm.Default input,
+.LiveForm.Default select,
+.LiveForm.Default textarea { margin: 0; padding: 8px; border: 1px solid #ccc; border-radius: 4px; background-color: #fff; -webkit-box-shadow: none; box-shadow: none; font-size: 13px; color: #666; }
+.LiveForm.Default input[type="text"],.LiveForm.Default input[type="password"],.LiveForm.Default select { height: 38px; }
+.LiveForm.Default textarea { min-height: 38px; }
+.LiveForm.Default .Field > label { margin-bottom: 5px; }
+.LiveForm.Default .Field.Address .Field-Container span,
+.LiveForm.Default .Field.Address .Field-Container label,
+.LiveForm.Default .Field.Fullname .Field-Container label,
+.LiveForm.Default .Field.Datetime .Field-Container label,
+.LiveForm.Default .Field.Address .Field-Container-Wide span,
+.LiveForm.Default .Field.Address .Field-Container-Wide label,
+.LiveForm.Default .Field.Fullname .Field-Container-Wide label,
+.LiveForm.Default .Field.Datetime .Field-Container-Wide label { margin-bottom: 10px; }
+.LiveForm.Default .Field.Fullname .Field-Container label { display: inline-block; }
+.LiveForm.Default .Field table td { padding: 0; vertical-align: baseline; }
+.LiveForm.Default .Field.Radiobutton table td,
+.LiveForm.Default .Field.Checkbox table td { padding: 4px; }
+.LiveForm.Default .Field > label,
+.LiveForm.Default .Field .MatrixWrapper > label { font-weight: bold; }
+.LiveForm.Default .ScaleRating table td,
+.LiveForm.Default .ScaleRating table th { text-align: center; padding: 4px; }
+.LiveForm.Default select,
+.LiveForm.Default textarea,
+.LiveForm.Default input[type="text"],
+.LiveForm.Default input[type="password"],
+.LiveForm.Default .Field.FileUpload input,
+.LiveForm.Default .Field.Phone input.Phone { width: 100%; }
+.viewport-sm .LiveForm.Default .Field.Fullname input.prefix,
+.viewport-sm .LiveForm.Default .Field.Fullname input.suffix { width: 50px; }
+.LiveForm.Default .Field-Container,
+.LiveForm.Default .Field-SubLabel-TextBox { display: block; }
+.viewport-sm .LiveForm.Default .Field-Container,
+.viewport-sm .Field.Fullname .Field-SubLabel-TextBox { display: inline-table; }
+.LiveForm.Default .Field table { padding: 0; width: 100%; border-collapse: collapse; }
+.LiveForm.Default .Field .Field-Seperator { padding: 0 8px; }
+.viewport-sm .LiveForm.Default .Field.Address input[type="text"],
+.viewport-sm .LiveForm.Default .Field.Address select { width: 142px; }
+.viewport-sm .LiveForm.Default select,
+.viewport-sm .LiveForm.Default textarea,
+.viewport-sm .LiveForm.Default input[type="text"],
+.viewport-sm .LiveForm.Default input[type="password"],
+.viewport-sm .LiveForm.Default .Field.FileUpload input,
+.viewport-sm .LiveForm.Default .Field.Address input.Street-Address,
+.viewport-sm .LiveForm.Default .Field.Address input.Street-Address2,
+.viewport-sm .LiveForm.Default .Field.Phone input.Phone { width: 300px; }
+.viewport-sm .LiveForm.Default .Field.Fullname input[type="text"] { width: 142px; }
+.viewport-sm .LiveForm.Default .Field.Fullname input.prefix,
+.viewport-sm .LiveForm.Default .Field.Fullname input.suffix { width: 50px; }
+.viewport-sm .LiveForm.Default .Field.Birthdate input[type="text"],
+.viewport-sm .LiveForm.Default .Field.Datetime input[type="text"],
+.viewport-sm .LiveForm.Default .Field.Datetime select,
+.viewport-sm .LiveForm.Default .Field.Birthdate select { width: 80px; }
+.viewport-sm .LiveForm.Default .Field.Time select { width: 88px; }
+.LiveForm.Default .Field.Phone input.AreaCode,
+.LiveForm.Default .Field.Phone table tr td:first-child { width: 60px; }
+.viewport-sm .LiveForm.Default .Field.Phone input.PhoneNumber { width: 211px; }
+.viewport-sm .LiveForm.Default .Field-Container-Wide { display: table; position: relative; }
+/*----------------Matrix----------------*/
+.LiveForm.Default .Matrix table th { background-color: #ddd; }
+.LiveForm.Default .Matrix table td,
+.LiveForm.Default .Matrix table th { padding: 6px; text-align: center; border: 1px solid #ccc; }
+.LiveForm.Default .Matrix table td.tdBlank { border: 0; background-color: transparent; }
+.LiveForm.Default .Matrix table th.thBlank { border: 0; background-color: transparent; }
+.LiveForm.Default .Matrix table tr > th:first-child { text-align: right; }
+.viewport-sm .LiveForm.Default input.Field-Matrix-TextBox,
+.viewport-sm .LiveForm.Default select.Field-Matrix-DropDown,
+.viewport-sm .LiveForm.Default input.Field-Matrix-TextBoxNumeric { width: 130px; }
+.LiveForm.Default input.Field-Matrix-TextBoxNumeric { width: 60px; }
+.LiveForm.Default .Matrix .MatrixWrapper { overflow-x: auto; }
+.LiveForm.Default .Matrix table th { font-weight: bold; }
+.LiveForm.Default .Matrix .Field-Container input { margin: 0; }
+.LiveForm.Default .Field-Tooltip-Arrow-Small { border-color: transparent #F5F5F5 transparent transparent; border-style: solid; border-width: 7px; height: 0; width: 0; right: -14px; top: 10px; position: absolute; }
+.LiveForm.Default .Field-Tooltip-Content { padding: 10px; font-size: 10px; color: #333; }
+.LiveForm .fullname-container { margin-left: 5px; white-space: nowrap; }
+.emailwizard-header { background: none repeat scroll 0px 0px rgb(255, 161, 0); border-bottom: 1px solid rgb(194, 122, 0); border-radius: 3px 3px 0px 0px; height: 35px; padding: 2px; position: relative; z-index: 1000; vertical-align: middle; font-weight: bolder; text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5); padding-right: 11px 4px 0 12px; font-size: 13px; cursor: move; color: rgb(255, 255, 255); }
+.emailwizard-header-label { vertical-align: middle; font-weight: bold; text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5); padding-right: 10px; font-size: 13px; cursor: move; color: rgb(255, 255, 255); }
+.viewport-sm .LiveForm.Default label.Field-Label-Auto, .viewport-sm .LiveForm.Default label.Field-Label-Hidden, .viewport-sm .LiveForm.Default span.Field-Label-Auto { width: 150px; }
+.viewport-sm .LiveForm.Default.Form-Top .Field-Label-Auto, .viewport-sm .LiveForm.Default.Form-Top .Field-Label-Hidden { width: auto; }
+.LiveForm.Default label.Field-Label-Auto, .LiveForm.Default label.Field-Label-Hidden, .LiveForm.Default span.Field-Label-Auto { display: inline-block; vertical-align: top; }
+/*Field Specific*/
+.LiveForm.Default .Field.Image .Field-Container { display: block; }
+/*hide button in page break */
+.LiveForm.Default ul li .button-hidden { display: none; }
+.LiveForm.Default ul li .form-pagebreak-back-container input[type=button],
+.LiveForm.Default ul li .form-pagebreak-next-container input[type=button] { float: right; }
+.LiveForm.Default .hidden { display: none; }
+.LiveForm.Default .Field-Container-Wide .next-form-pagebreak button:last-child,
+.LiveForm.Default .Field-Container-Wide .form-pagebreak.next-form-pagebreak .button-next { float: left; }
+/* Smartphones and iPad (portrait and landscape) ----------- */
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+    .LiveForm.Default { max-width: 100%; }
+}
+.LiveForm.Default .Matrix .Field-Container > div { display: table-caption; }
+.LiveForm.Default .plupload_filelist_footer { box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; }
+.LiveForm.Default .next-form-pagebreak .button-next { float: left !important; }
+.LiveForm.Default .nrequired, .LiveForm.Default .Radiobutton.Required input[type="text"] { width: 107px; margin: 0; }
+/*dnnsoftware.ir*/
+.LiveForm.Default ul li { list-style-type: none; }
+/* Negin Forms Style */
+.LiveForm ul.page-break-section li.Field { display: inline-block; float: right; margin-bottom: 12px; padding: 0; position: relative; width: 100%; box-sizing: border-box; }
+ul.page-break-section li .Field-Container textarea, ul.page-break-section li .Field-Container input[type='text'], ul.page-break-section li .Field-Container select { -moz-appearance: none; -webkit-appearance: none; -o-appearance: none; -ms-appearance: none; background: #fff none repeat scroll 0 0; border: 1px solid rgb(229, 229, 229); border-radius: 0 !important; box-shadow: none; box-sizing: border-box; color: rgb(0, 0, 0); text-shadow: 0 0 #000; font-size: 11.5px; height: 48px; line-height: 20px; padding: 7px 12px; transition: all 0.8s ease 0s; width: 100%; }
+ul.page-break-section li#Field_848_1 { width: 100% !important; }
+.Field-Container > table { width: 100%; }
+.Field-Label-Hidden { display: none; }
+ul.page-break-section li.Field h1.Header, ul.page-break-section li.Field h2.Header { border-bottom: 1px solid rgb(229, 229, 229); color: rgb(0, 0, 0); font-size: 20px; font-weight: normal; margin-bottom: 0; margin-top: 20px; padding: 0 0 10px; text-shadow: 0.5px 0 rgb(0, 0, 0); }
+.trd-condition > div { margin: 20px 0; }
+.trd-condition { border-left: 1px solid rgb(229, 229, 229); margin-bottom: 50px; padding: 25px 25px 25px 40px; }
+.trd-condition, .trd-condition div { font-size: 12px; line-height: 27px; text-align: justify; }
+.trd-condition > strong { font-size: 12px; font-weight: normal; }
+.fontstyle { margin: 0; text-align: justify; }
+.fontstyle > li, .fontstyle > li ul li { font-size: 11.5px; line-height: 25px; padding: 2px 0; }
+.fontstyle img { width: 16px; margin-left: 5px; }
+.trd-condition h3 { color: rgb(0, 0, 0); font-size: 16px; margin: 0; padding: 15px 0 20px; text-shadow: 0.3px 0 rgb(0, 0, 0); line-height: 30px; }
+.fontstyle > li ul { margin-bottom: 10px; margin-right: 35px; margin-top: 10px; }
+.fontstyle > li ul li { list-style-type: disc; }
+.button-next, .button-back { background: rgb(22, 22, 22) linear-gradient(180deg, rgb(65, 65, 65), rgb(45, 45, 45) 25%, rgb(45, 45, 45) 50%, rgb(45, 45, 45)) repeat scroll 0 0 / 100% 400%; border: medium none; box-shadow: none; color: rgb(255, 255, 255); font-size: 15px; line-height: 22px; margin-top: 10px; padding: 15px 40px; border-bottom: 2px solid #333; }
+.page-break-section { margin: 0; padding-right: 15px; }
+.causesValidation.bSubmit { background: rgb(51, 51, 51) none repeat scroll 0 0; border: medium none; box-shadow: none; color: rgb(255, 255, 255); font-size: 15px; line-height: 22px; margin-top: 0; padding: 15px 40px; }
+ul.page-break-section li .Field-Container select { color: #999 !important; background: rgb(255, 255, 255) url("/Portals/0/images/Icons/change-down-red.png") no-repeat scroll 12px center; }
+.page-break-section > li:last-child { float: right; list-style-type: none; margin-bottom: 50px; }
+ul.page-break-section li#Field_848_17 { float: right !important; width: auto; }
+.button-back { margin-right: 10px; margin-top: 0; }
+.fontstyle a { color: rgb(0, 0, 0); font-weight: bold; }
+.trd-condition { background: #f9f9f9 none repeat scroll 0 0; border: 1px solid #e5e5e5; margin-bottom: 50px; padding: 25px; }
+ul.page-break-section li .Field-Container label { font-weight: normal; padding-right: 15px; position: relative; text-shadow: 0.5px 0 rgb(0, 0, 0); }
+ul.page-break-section li .Field-Container input[type="checkbox"] + label::before, ul.page-break-section li .Field-Container input[type="radio"] + label::before { background: rgb(250, 250, 250) none repeat scroll 0 0; border: 1px solid rgb(250, 250, 250); outline: 1px solid rgb(204, 204, 204); border-radius: 0; color: rgb(255, 255, 255); content: ""; height: 14px; margin-top: 0; position: absolute; right: -13px; top: 2px; transition: all 0.2s ease 0s; width: 14px !important; z-index: 5; }
+ul.page-break-section li .Field-Container input[type="checkbox"]:checked + label::before, ul.page-break-section li .Field-Container input[type="radio"]:checked + label::before { background: rgb(204, 0, 0) none repeat scroll 0 0; color: rgb(255, 255, 255); }
+ul.page-break-section li .Field-Container input[type="checkbox"], ul.page-break-section li .Field-Container input[type="radio"] { visibility: hidden; }
+ul.page-break-section li.Heading, ul.page-break-section li.Checkbox, ul.page-break-section li.PageBreak, #Field_861_18, #Field_861_31, #Field_861_26, #Field_861_40, #Field_861_41, #Field_861_56, #Field_861_57, #Field_861_58 { width: 100%; }
+#Field_861_25 .Field-Container textarea { height: 52px; min-height: 52px; line-height: 20px !important; }
+ul.page-break-section li.Field label { color: rgb(0, 0, 0); font-size: 12px; font-weight: normal; text-shadow: 0 0 rgb(127, 127, 128); vertical-align: top; }
+ul.page-break-section li.Heading { margin: 30px 0; }
+.datepicker_year, .datepicker_month, .datepicker_day { padding: 5px !important; width: 100% !important; }
+#Field_861_10 .Field-Label-Right { float: right; }
+ul.page-break-section li.Birthdate .Field-Container td, ul.page-break-section li.Datetime .Field-Container td { position: relative; padding: 0 1px; }
+ul.page-break-section li.Birthdate .Field-SubLabel-Container, ul.page-break-section li.Datetime .Field-SubLabel-Container { font-size: 11px; padding: 0; position: absolute; right: 13px; top: 13px; color: rgb(136, 136, 136); }
+#Birthdate_861_10_Calender, #Datetime_861_23_Calender, #Datetime_861_22_Calender { display: none; }
+ul.page-break-section li.Checkbox { margin-bottom: 30px; }
+ul.page-break-section li .Field-Container textarea { min-height: 120px; }
+#Field_861_26 .Field-Container > textarea, #Field_861_18 .Field-Container > textarea, #Field_861_31 .Field-Container > textarea, #Field_861_56 .Field-Container > textarea, #Field_861_79 .Field-Container > textarea { width: 98.25%; }
+.Birthdate .Field-Container > table, .Datetime .Field-Container > table { width: 100%; }
+.Birthdate .Field-Container td:last-child, .Datetime .Field-Container td:last-child { display: none; }
+#Field_861_16, #Field_861_2, #Field_861_21, #Field_861_24, #Field_861_25 { height: auto; }
+#Field_861_2 .Field-Container td { padding: 125px 0 0; position: relative; text-align: center; vertical-align: top; width: 33.33%; }
+#Field_861_2 .Field-Container, #Field_861_2 .Field-Container table { width: 100%; }
+#Field_861_2 .Field-Container td::before { background: rgb(51, 51, 51) url("/Portals/0/images/Icons/df-icon4.png") no-repeat scroll center center; border-radius: 50%; content: ""; height: 100px; position: absolute; right: 30%; top: 0; width: 100px; z-index: 5; }
+#Field_861_2 .Field-Container td:nth-child(3)::after { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; content: ""; cursor: not-allowed; height: 100%; position: absolute; right: 0; top: 0; width: 100%; z-index: 8; }
+#Field_861_2 .Field-Container td:first-child::before { background: rgb(51, 51, 51) url("/Portals/0/images/Icons/df-icon1.png") no-repeat scroll center center; }
+#Field_861_2 .Field-Container td:nth-child(2)::before { background: rgb(51, 51, 51) url("/Portals/0/images/Icons/df-icon3.png") no-repeat scroll center center; }
+#Field_861_2 .Field-Container td:nth-child(3)::before { background: rgb(51, 51, 51) url("/Portals/0/images/Icons/df-icon2.png") no-repeat scroll center center; }
+#Field_861_2 .Field-Container td:last-child, #Field_861_2 .Field-Container td:last-child::before, #Field_861_2 .Field-Container td:nth-child(4) { display: none; }
+#Field_861_31 { height: auto; width: 100%; }
+ul.page-break-section li.Radiobutton .Field-Container > table, #Field_861_58 .Field-Container table { width: 100%; }
+ul.page-break-section li.Radiobutton .Field-Container > table td, #Field_861_58 .Field-Container table td { padding: 0; }
+.form-pagebreak-next-container .button-next, .form-pagebreak-back-container .button-back { margin-bottom: 30px; margin-right: 0; margin-top: 0; }
+.form-pagebreak-back-container .button-back { margin-left: 10px; }
+.form-pagebreak-back-container .button-back { margin-right: 0; }
+.form-pagebreak-next-container, .form-pagebreak-back-container { float: right; }
+#Field_861_18 { margin-top: 0; }
+#Field_861_37 h2.Header { font-size: 18px; }
+#Field_861_46, #Field_861_47 { width: 100%; margin-bottom: 25px; }
+#Field_861_48 .Field-Container > table { width: 100%; }
+#Field_861_48 .Field-Container > table td { padding: 20px 0; width: 25%; }
+#Field_861_48 .Field-Container > table td:last-child { width: 50%; }
+.button-next, .causesValidation.bSubmit { background: rgb(204, 0, 0) none repeat scroll 0 0; border-bottom: 2px solid rgb(133, 0, 0); color: rgb(255, 255, 255); transition: background-color 0.3s ease 0s; -webkit-transition: background-color 0.3s ease 0s; -moz-transition: background-color 0.3s ease 0s; -ms-transition: background-color 0.3s ease 0s; -o-transition: background-color 0.3s ease 0s; }
+.button-next:hover, .causesValidation.bSubmit:hover { background-color: rgb(105, 15, 17); border-color: rgb(153, 0, 0); color: rgb(255, 255, 255); }
+#Field_861_79 { margin-bottom: 30px; width: 100%; }
+#Field_861_67 { float: none; }
+#Field_861_66 .Field-Container table td label { padding-right: 20px; position: static; }
+#Field_861_66 .Field-Container table td { position: relative; padding: 0; }
+.page-break-section > li:last-child .button-back { margin-right: 0; }
+ul.page-break-section li.Field label.error { background: rgb(51, 51, 51) none repeat scroll 0 0; color: rgb(255, 255, 255); font-size: 11px; padding: 6px 10px; position: absolute; right: 25%; top: -27px; width: auto; }
+ul.page-break-section li.Field label.error::after { border-color: rgb(51, 51, 51) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); border-style: solid; border-width: 5px; bottom: -9px; content: ""; position: absolute; right: 19px; }
+ul.page-break-section li.Field label.error { background: rgb(51, 51, 51) none repeat scroll 0 0; color: rgb(255, 255, 255); font-size: 11px; padding: 6px 10px; position: absolute; right: 25%; top: -27px; width: auto; }
+.Field-Container { position: relative; width: 100%; }
+#Field_861_40 { margin-bottom: 45px; }
+#Field_861_41 input.nrequired, #Field_861_40 input.nrequired { width: 91%; }
+#Field_861_57 { margin: 20px 0 45px; }
+#Field_861_57 .Field-Container, #Field_861_58 .Field-Container { margin-top: 25px; }
+#Field_861_80 .Field-Container table td { padding: 0; position: relative; }
+#Field_750_31 { float: left; width: 71%; }
+li#Field_750_18 label { display: inline-block; margin-bottom: 25px; }
+li#Field_750_18 table tr td label { font-size: 12px; }
+.page-break-section { display: inline-block; margin-top: 110px; padding: 0; width: 100%; margin-bottom: 30px; }
+.DnnModule-800 .garantee_tabs_content { margin-top: 110px; padding-bottom: 30px; padding-left: 25px; }
+.LiveForm.arita-white .thank-you { margin-top: 30px; }
+.LiveForm.arita-white .thank-you > h5 { color: rgb(0, 0, 0); font-size: 19px; font-weight: normal; margin-bottom: 25px; text-shadow: 0 0 rgb(0, 0, 0); }
+.LiveForm.arita-white .thank-you > p { color: rgb(85, 85, 85); font-size: 12px; font-weight: normal; line-height: 27px; text-shadow: 0 0 rgb(85, 85, 85); }
+.LiveForm.arita-white .thank-you > p strong { font-weight: normal; }
+.LiveForm.arita-white .thank-you > p strong span { display: block; font-size: 12px; line-height: 30px; }
+.DnnModule-800 .garantee_tabs_content hr { width: 40px !important; }
+input:focus, textarea:focus, select:focus { border: 1px solid rgb(229, 229, 229) !important; box-shadow: none !important; }
+#Field_830_4, #Field_830_6, #Field_830_9, #Field_830_11, #Field_830_13, #Field_830_19, #Field_830_27, #Field_830_30, #Field_830_32, #Field_830_34, #Field_830_38, #Field_830_40, #Field_830_42, #Field_830_44, #Field_830_51, #Field_830_53, #Field_830_55, #Field_830_58, #Field_830_60, #Field_830_62, #Field_830_64, #Field_830_66 { float: right; padding-left: 6px; width: 50%; }
+#Field_830_5, #Field_830_7, #Field_830_10, #Field_830_12, #Field_830_14, #Field_830_20, #Field_830_28, #Field_830_31, #Field_830_33, #Field_830_35, #Field_830_39, #Field_830_41, #Field_830_43, #Field_830_45, #Field_830_52, #Field_830_54, #Field_830_56, #Field_830_59, #Field_830_61, #Field_830_63, #Field_830_65, #Field_830_67 { float: right; padding-right: 6px; width: 50%; }
+#dnn_ctr830_View_Textarea_830_25, #dnn_ctr830_View_Textarea_830_24 { line-height: 25px; }
+#LiveForm830 .page-break-section { margin-top: 0; }
+#Field_830_3 { border-top: 1px solid rgb(190, 192, 196); }
+.DnnModule-830 ul.page-break-section li.Heading { margin: 15px 0; }
+#Field_830_37 h2.Header { font-size: 17px; line-height: 33px; }
+.DnnModule-830 ul.page-break-section li.Field h1.Header, .DnnModule-830 ul.page-break-section li.Field h2.Header, .DnnModule-855 ul.page-break-section li.Field h1.Header, .DnnModule-855 ul.page-break-section li.Field h2.Header { border: none; color: rgb(0, 0, 0); font-size: 19px; font-weight: normal; margin-bottom: 0; margin-top: 30px; padding: 0 0 20px; text-shadow: 0.5px 0 rgb(0, 0, 0); }
+#Field_830_26, #Field_830_29, #Field_830_57 { border-top: 1px solid rgb(190, 192, 196); margin-top: 35px; }
+#Label_830_48 { margin-bottom: 25px; display: block; margin-top: 10px; }
+#Field_830_70 { float: left; width: 72%; }
+.Birthdate input, .Datetime input { padding: 7px 45px !important; padding-left: 0 !important; color: #000 !important; }
+.suc-frm { font-size: 17px; color: #000; font-weight: normal; text-shadow: 0 0 #000000; margin: 62px 0; }
+.DnnModule-855 .LiveForm ul.page-break-section li.Field { width: 50%; }
+.DnnModule-855 ul.page-break-section li .Field-Container input[type="text"], .DnnModule-855 ul.page-break-section li .Field-Container select { width: 96.5%; }
+.DnnModule-855 ul.page-break-section li .Field-Container textarea { width: 98.25%; }
+#Field_855_1, #Field_855_34 { width: 100% !important; }
+.DnnModule-855 .page-break-section { margin-top: 0; }
+.DnnModule-855 .plupload_disabled, .DnnModule-855 a.plupload_disabled:hover { border-color: #000; background: #f8f8f8; cursor: default; border-width: 0; color: #000 !important; text-align: center !important; padding: 10px 0; border-radius: 0; font-size: 12px; text-shadow: 0 0 #000; margin: 0; margin-left: 5px; width: 45%; }
+.DnnModule-855 .plupload_filelist_header, .DnnModule-855 .plupload_filelist_footer { background: transparent; padding: 8px 0; color: #42454A; }
+.DnnModule-855 .plupload_container { border: none; }
+#Field_855_1 h2 { margin-top: 20px; }
+@media screen and (max-width: 1000px) {
+    #Field_830_2 .Field-Container > table td { display: block; margin: 10px 0; }
+    #Field_830_70 { float: left; width: 100%; }
+    .causesValidation.bSubmit, .button-next, .button-back, .page-break-section > li:last-child { width: 100%; }
+    .form-pagebreak-back-container .button-back { margin-left: 0; margin-bottom: 15px; }
+    .form-pagebreak-next-container, .form-pagebreak-back-container { float: right; margin-left: 0; width: 100%; }
+    .page-break-section { margin-bottom: 0; }
+}
+@media screen and (max-width: 767px) {
+    .form-pagebreak-next-container, .form-pagebreak-back-container { float: right; margin-left: 10px; width: auto; }
+}
+@media screen and (max-width: 450px) {
+    ul.page-break-section li.Field { width: 100% !important; padding: 0 !important; }
+    .button-next, .button-back { width: 100% !important; margin-bottom: 15px !important; margin-left: 0 !important; }
+    .form-pagebreak-next-container, .form-pagebreak-back-container { width: 100% !important; }
+    #Field_830_48 .Field-Container > table td { display: block; margin: 10px 0; }
+    .form-pagebreak-next-container, .form-pagebreak-back-container { float: right; margin-left: 0; width: 100%; }
+}
