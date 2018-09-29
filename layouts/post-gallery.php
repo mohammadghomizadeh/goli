@@ -26,7 +26,7 @@
 	<div class="box-tmp-all">
     <ul class="box-tmp">
         <?php 
-        $resultpost= $db->select("main_feature");
+        $resultpost= $db->select("main_feature","`type` = 'ayandeh'");
         foreach ($resultpost as $row){
     ?>
         <li class="is-on">
@@ -37,7 +37,7 @@
                     <div class="box-item-content">
                         <a class="box-item-heading" href="http://prius.irtoya.com">آینده، همین الان!</a>
                         <p class="box-item-text">جهت تجربه آنلاین پرفروش ترین خودروی هیبریدی دنیا، پریوس کلیک نمایید.</p>
-                        <a class="box-item-link" href="http://prius.irtoya.com">مشاهده ی جزییات</a>
+                        <a class="box-item-link" href="featuer-single.php?action=<?php echo $row['type']; ?>">مشاهده ی جزییات</a>
                     </div>
                 </div>
             </div>

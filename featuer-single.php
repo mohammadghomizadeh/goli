@@ -1,8 +1,8 @@
 <?php include('layouts/head-script.php'); ?>
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<!--CDF(Css|/Portals/0/Skins/Irtoya1393/css/HomePage.css)-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--CDF(Css|/Portals/0/Skins/Irtoya1393/css/HomePage.css)-->
     <div class="body_bg">
         <div id="dnn_wrapper" style=" background: rgb(239, 240, 244) none repeat scroll 0 0;">
             <div class="wrapper" style="background:none !important;">
@@ -33,56 +33,28 @@
                             <div class="content_mid clearfix">
                                 <section class="row-fluid">
                                     <div class="span12">
-                                        <div id="dnn_TopOutPaneA" class="TopOutPaneA"><div class="DnnModule DnnModule-DNN_HTML DnnModule-586"><a name="586"></a>
+                                        <div id="dnn_TopOutPaneA" class="TopOutPaneA"><div class="DnnModule DnnModule-DNN_HTML DnnModule-481"><a name="481"></a>
                                                 <div class="White">
-                                                    <div id="dnn_ctr586_ContentPane" class="contentpane"><!-- Start_Module_586 -->
-                                                        <meta http-equiv="Content-Type" content="text/html; charset=unicode">
-                                                        <style>
-                                                            .DnnModule-601 #TWLiveTabsWrapper601, .DnnModule-585 .garantee_tabs_content {
-                                                                display: none;
-                                                                opacity: 0;
-                                                            }
-                                                        </style>
-                                                        <script>
-                                                            $(document).ready(function () {
-                                                                $("#dnn_content").css("min-height", "initial");
-                                                                $('.branch_tab h3:nth-child(1)').click(function () {
-                                                                    $('.branch_tab h3').removeClass("cus_tab_active");
-                                                                    $(this).addClass("cus_tab_active");
-
-                                                                    $(".DnnModule-585 .garantee_tabs_content").css("display", "none").css("opacity", "0");
-                                                                    $(".DnnModule-601 #TWLiveTabsWrapper601").css("display", "none").css("opacity", "0");
-                                                                    $(".DnnModule-LiveForms.DnnModule-799 , .DnnModule-800").css("display", "block").animate({ "opacity": "1" }, 500);
-                                                                });
-                                                                $('.branch_tab h3:nth-child(2)').click(function () {
-                                                                    $('.branch_tab h3').removeClass("cus_tab_active");
-                                                                    $(this).addClass("cus_tab_active");
-                                                                    $(".DnnModule-LiveForms.DnnModule-799 ,.DnnModule-800").css("display", "block").css("opacity", "1");
-                                                                    $(".DnnModule-601 #TWLiveTabsWrapper601").css("display", "none").css("opacity", "0");
-                                                                    $(".DnnModule-585 .garantee_tabs_content").css("display", "block").animate({ "opacity": "1" }, 500);
-                                                                });
-                                                                $('.branch_tab h3:nth-child(3)').click(function () {
-                                                                    $('.branch_tab h3').removeClass("cus_tab_active");
-                                                                    $(this).addClass("cus_tab_active");
-                                                                    $(".DnnModule-LiveForms.DnnModule-799 , .DnnModule-800").css("display", "none").css("opacity", "0");
-                                                                    $(".DnnModule-585 .garantee_tabs_content").css("display", "none").css("opacity", "0");
-                                                                    $(".DnnModule-601 #TWLiveTabsWrapper601").css("display", "block").animate({ "opacity": "1" }, 500);
-                                                                });
-                                                            });
-                                                        </script>
-                                                        <div id="dnn_ctr586_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
-                                                            <div id="dnn_ctr586_HtmlModule_lblContent" class="Normal">
+                                                    <div id="dnn_ctr481_ContentPane" class="contentpane"><!-- Start_Module_481 --><div id="dnn_ctr481_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+                                                            <div id="dnn_ctr481_HtmlModule_lblContent" class="Normal">
                                                                 <div class="Branches_all accessories_title">
-                                                                    <h1>واحد آموزش</h1>
 
-                                                                    <div class="branch_tab">
-                                                                        <h3 class="cus_tab_active">کلاسهای آموزشی</h3>
-                                                                    </div>
+                                                             <?php
+                                                                    $actiontype = $_GET['action'];
+                                                                    $result = $db->select("main_feature","`type` = '$actiontype'");
+                                                                    foreach($result as $rows){
+                                                                        ?>
+                                                                            <h1><?php echo $rows['title']; ?></h1>
+                                                                        <?php
+                                                                        
+                                                                    };
+
+                                                                    ?>
+
                                                                 </div>
-
                                                             </div>
 
-                                                        </div><!-- End_Module_586 --></div>
+                                                        </div><!-- End_Module_481 --></div>
                                                 </div>
 
 
@@ -105,7 +77,7 @@
                         </div>
                     </div>
                     <div class="dnn_layout">
-                        <section id="dnn_content" style="min-height: initial;">
+                        <section id="dnn_content">
                             <div class="content_mid clearfix">
                                 <div class="pane_layout">
                                     <section class="row-fluid">
@@ -196,18 +168,22 @@
                                     </section>
                                     <section class="row-fluid">
                                         <div class="span12">
-                                            <div id="dnn_ContentPane" class="ContentPane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-585"><a name="585"></a>
+                                            <div id="dnn_ContentPane" class="ContentPane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-482"><a name="482"></a>
                                                     <div class="White">
-                                                        <div id="dnn_ctr585_ContentPane" class="contentpane"><!-- Start_Module_585 -->
-                        <!-- End_Module_585 -->
-                        </div>
+                                                        <div id="dnn_ctr482_ContentPane" class="contentpane"><!-- Start_Module_482 --><div id="dnn_ctr482_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+                                                                <div id="dnn_ctr482_HtmlModule_lblContent" class="Normal">
+                                                                    <?php
+                                                                   
+                                                                    $result = $db->select("main_feature","`type` = '$actiontype'");
+                                                                    foreach($result as $rows){
+                                                                        echo $rows['description'];
+                                                                    };
+
+                                                                    ?>
+                                                                </div>
+
+                                                            </div><!-- End_Module_482 --></div>
                                                     </div>
-
-
-
-                                                </div>
-                                                
-                                                    
 
 
 
@@ -251,61 +227,10 @@
                                     </section>
                                     <section class="row-fluid">
                                         <div class="span6">
-                                            <div id="dnn_RowFourteen_Grid6_Pane1" class="RowFourteen_Grid6_Pane1">
-                                            <div class="DnnModule DnnModule-LiveForms DnnModule-799" style="display: block; opacity: 1;"><a name="799"></a>
-                                                    <div class="White">
-                                                        <div id="dnn_ctr799_ContentPane" class="contentpane"><!-- Start_Module_799 -->
-                                                        <div id="dnn_ctr799_ModuleContent" class="DNNModuleContent ModLiveFormsC">
-
-
-
-                                                                <div class="lfoverlay"></div><div class="lfmodal"><img src="/DesktopModules/LiveForms/Resources/img/loading.gif" width="32px" height="32px"></div><div id="dnn_ctr799_View_LiveForm799" uniqueid="LiveForm799" class="LiveForm arita-white LiveForm-Right validationGroup" style="color:;"><script>LiveForms.AppendViewPortClass('LiveForm799',768);$(window).resize(function () {LiveForms.AppendViewPortClass('LiveForm799',768);});</script><div id="LiveForm799">
-                                                                        <ul class="page-break-section">
-                                                                            <li class="First Field Textbox Required FieldSpacing" guid="2035672F-A94A-4624-A2FA-FB66AC0880D5" condition="condition" id="Field_799_1"><label id="Label_799_1" class="Field-Label-Hidden" for="dnn_ctr799_View_Textbox_799_1"></label><div title="نام مالک خودرو را وارد نمایید" class="Field-Container"><input name="dnn$ctr799$View$Textbox_799_1" type="text" id="dnn_ctr799_View_Textbox_799_1" placeholder="نام و نام خانوادگی" required="required"></div></li>
-                                                                            <li class="Alt Field Textbox Numeric FieldSpacing" guid="41A03A2C-F1FC-450C-8384-041B79F0FEF8" condition="condition" id="Field_799_2"><label id="Label_799_2" class="Field-Label-Hidden" for="dnn_ctr799_View_Textbox_799_2"></label><div class="Field-Container"><input name="dnn$ctr799$View$Textbox_799_2" type="text" id="dnn_ctr799_View_Textbox_799_2" placeholder="تلفن" numeric="numeric"></div></li><li class="Field Textbox Numeric FieldSpacing" guid="5AB8B176-3314-4611-9717-23D7E6DA69EA" condition="condition" id="Field_799_3"><label id="Label_799_3" class="Field-Label-Hidden" for="dnn_ctr799_View_Textbox_799_3"></label><div class="Field-Container"><input name="dnn$ctr799$View$Textbox_799_3" type="text" maxlength="11" id="dnn_ctr799_View_Textbox_799_3" placeholder="موبایل" numeric="numeric"></div></li><li class="Alt Field Textarea FieldSpacing" guid="4E02B86B-929A-43A7-9055-5D8DAD26A182" condition="condition" id="Field_799_4"><label id="Label_799_4" class="Field-Label-Hidden" for="dnn_ctr799_View_Textarea_799_4"></label><div class="Field-Container"><textarea name="dnn$ctr799$View$Textarea_799_4" rows="2" cols="20" id="dnn_ctr799_View_Textarea_799_4" placeholder="آدرس محل سکونت"></textarea></div></li><li class="Field Textbox FieldSpacing" guid="6E734B8B-4EE2-4435-9925-4F68556A16F1" condition="condition" id="Field_799_5"><label id="Label_799_5" class="Field-Label-Hidden" for="dnn_ctr799_View_Textbox_799_5"></label><div title="لطفا شماره قرارداد  خودرو را وارد نمایید." class="Field-Container"><input name="dnn$ctr799$View$Textbox_799_5" type="text" id="dnn_ctr799_View_Textbox_799_5" placeholder="شماره قرارداد"></div></li><li class="Alt Field Dropdown Required FieldSpacing" guid="2BFCD8F6-6E48-429A-8B8C-8D6B447D2F97" condition="condition" id="Field_799_6"><label id="Label_799_6" class="Field-Label-Hidden" for="dnn_ctr799_View_Dropdown_799_6"></label><div title="مدل خودرو را انتخاب نمایید" class="Field-Container"><input type="hidden" name="dnn$ctr799$View$Dropdown_799_6_text" id="dnn_ctr799_View_Dropdown_799_6_text" class="nrequired"><select name="dnn$ctr799$View$Dropdown_799_6" id="dnn_ctr799_View_Dropdown_799_6" xmlns:lf="LF" required="required">
-                                                                                        <option selected="selected" value="">مدل خودرو را انتخاب نمایید</option>
-                                                                                        <option value="پریوس">پریوس</option>
-                                                                                        <option value="روفور">روفور</option>
-                                                                                        <option value="لکسوس NX">لکسوس NX</option>
-
-                                                                                    </select></div></li><li class="Last  Field Submitbutton FieldSpacing" guid="F48D501B-4BE0-4B16-9BA6-DBACD18FAE47" condition="condition" id="Field_799_7"><div class=""><div class="Submit-Align-Left"><input type="submit" name="dnn$ctr799$View$Submitbutton_799_7" value="ارسال درخواست" id="dnn_ctr799_View_Submitbutton_799_7" class="causesValidation bSubmit"></div></div></li></ul>
-                                                                    </div></div><input name="dnn$ctr799$View$ctl01" type="hidden" value="[{&quot;Actions&quot;:[{&quot;ActionType&quot;:&quot;ClientSide&quot;,&quot;HideShowType&quot;:&quot;Show Multiple&quot;,&quot;ControlToHideShow&quot;:&quot;DF9344C6-6A3A-4D27-8A88-D2F6E29C89C4,AC82535B-B8B8-49FC-A22E-C821701477B6,9C19285B-1277-41DF-90E2-08AB76574936,170DD08A-109E-4E5C-8DE9-54785253F229,8F1993EC-F869-42F8-ACA5-FFA553B8A3A7&quot;,&quot;FriendlyName&quot;:&quot;Show Hide Field&quot;,&quot;ActionName&quot;:&quot;Show Hide Field&quot;,&quot;Category&quot;:&quot;&quot;}],&quot;ConditionSet&quot;:{&quot;Conditions&quot;:[],&quot;ExecuteCondition&quot;:0,&quot;MatchCondition&quot;:1},&quot;GUID&quot;:&quot;0125036f-a6bb-42ef-852d-8989d3677965&quot;},{&quot;Actions&quot;:[{&quot;ActionType&quot;:&quot;ClientSide&quot;,&quot;HideShowType&quot;:&quot;Show Multiple&quot;,&quot;ControlToHideShow&quot;:&quot;A225B0B5-4283-4BC8-8A2B-E46AFBBB352D,CA310C57-F112-4855-95DD-AE63C3BAA23B,FB215E7F-43CA-4E0B-BD6C-A956950354A1,B2AB164D-5D2F-41E1-A0EC-1D70C9F0CDEE,A20028B0-92B4-4D72-8A04-D7B51BD392A3,C0BF8B1F-E6FD-4B59-92FA-9DA4F10D5192,A609B23B-C6FB-4CAD-97EF-F7EB7AFBF2BF&quot;,&quot;FriendlyName&quot;:&quot;Show Hide Field&quot;,&quot;ActionName&quot;:&quot;Show Hide Field&quot;,&quot;Category&quot;:&quot;&quot;}],&quot;ConditionSet&quot;:{&quot;Conditions&quot;:[],&quot;ExecuteCondition&quot;:0,&quot;MatchCondition&quot;:1},&quot;GUID&quot;:&quot;e99dcba1-86e3-4cea-8f2f-a4543cf21ac3&quot;}]" class="ClientSideActionJson" pid="0" mid="799">
-
-
-                                                            </div><!-- End_Module_799 --></div>
-                                                    </div>
-
-
-
-                                                </div></div>
+                                            <div id="dnn_RowFourteen_Grid6_Pane1" class="RowFourteen_Grid6_Pane1 DNNEmptyPane"></div>
                                         </div>
                                         <div class="span6">
-                                            <div id="dnn_RowFourteen_Grid6_Pane2" class="RowFourteen_Grid6_Pane2">
-                                            <div class="DnnModule DnnModule-DNN_HTML DnnModule-800" style="display: block; opacity: 1   ;"><a name="800"></a>
-                                                    <div class="White">
-                                                        <div id="dnn_ctr800_ContentPane" class="contentpane"><!-- Start_Module_800 -->
-                                                        <div id="dnn_ctr800_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
-                                                                <div id="dnn_ctr800_HtmlModule_lblContent" class="Normal">
-                                                                    <div class="garantee_tabs_content" style="display: block; opacity: 1;">
-                                                                        <h1>
-                                                                            کلاسهای آموزش آپشن مخصوص مشتریان ایرتویا<hr>
-                                                                        </h1>
-                                                                        کلاسهای آموزش آپشن مخصوص مشتریان ایرتویا برای خودروهای
-                                                                        <ul>
-                                                                            <li><span class="check_mark_garantee">✔</span>پریوس</li>
-                                                                            <li><span class="check_mark_garantee">✔</span>RAV4</li>
-                                                                            <li><span class="check_mark_garantee">✔</span>NX</li>
-                                                                        </ul>
-                                                                        در روزهای پنج شنبه و جمعه از ساعت 10 صبح به مدت دو ساعت در شرکت آریتا برگزار می شود تاریخ دقیق برگزاری کلاس پس از ثبت نام مشتریان از طریق پیامک اطلاع رسانی می شود.
-                                                                    </div>
-                                                                </div>
-
-                                                            </div><!-- End_Module_800 --></div>
-                                                    </div>
-
-
-
-                                                </div></div>
+                                            <div id="dnn_RowFourteen_Grid6_Pane2" class="RowFourteen_Grid6_Pane2 DNNEmptyPane"></div>
                                         </div>
                                     </section>
                                     <section class="row-fluid">
@@ -496,7 +421,9 @@
                                         <div class="span3">
                                             <div id="dnn_FootPaneD" class="FootPaneD"><div class="DnnModule DnnModule-DNN_HTML DnnModule-867"><a name="867"></a>
                                                     <div class="White">
-                                                        <div id="dnn_ctr867_ContentPane" class="contentpane"><!-- Start_Module_867 --><div id="dnn_ctr867_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+                                                        <div id="dnn_ctr867_ContentPane" class="contentpane">
+                                                            <!-- Start_Module_867 -->
+                                                            <div id="dnn_ctr867_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
                                                                 <div id="dnn_ctr867_HtmlModule_lblContent" class="Normal">
                                                                     <div class="footer-links">
                                                                         <div class="footer-links-col">
@@ -551,9 +478,4 @@
             </div>
         </div>
     </div>
-<script type="text/javascript">
-    //<![CDATA[
-    LiveForms.SQLHandler='/DesktopModules/LiveForms/Handlers/SQL.ashx';if (typeof(jQuery("#LiveTabsWrapper601").tabs) == 'undefined') { jQuery.getScript('/WebResource.axd?d=doIMM1GfaEepLV1krsDJKM8k-7Ox6G42SzSgL8n2vYK79T8PjWZdzgn8-4_NxkzGssSo834tg6DWHhw70xWNOe66-S1m6j7Fp5jtcYbEiI3wHqKxQ21dtQcbMaZNmJNIdn2iEg2&amp;t=636335726440000000', function(){ jQuery.getScript('/WebResource.axd?d=uitDZBQIx68YEC9S_39FCF_SYeqmaOIayv6XmBIRvQM8R1GEa61QcCOCq2_S1THfiNMv6_ROyAOfNkWsgdPy_suLNbKSj7Q2EsiX10UpAQeqczCbA6OHs0f-eZEOWWzuPS9zpVKo-9cP3c-J0&amp;t=636335726440000000', function(){ jQuery.getScript('/WebResource.axd?d=bj4EAAXC6hipctS1HDeCQWcCWbW_QcEAB_JLYLUw9_WDbYk9YJYBbiniK2V72HqcXOQzCiZ8i9SuSxJTwF9bLeoGjAgD-yLVBH5zgc63XrMOy8SFQREGJoDMBX69Vo5jMjhaqfouI5NjEcqS0&t=636335726440000000', function(){ jQuery(function() {jQuery('#LiveTabsWrapper601').tabs({create:function(event, ui) { var LTLaunchLink = window.location.hash.indexOf('#601', 0); var LTOldLaunchLink = window.location.hash.indexOf('#LiveTabsContent', 0);if (LTLaunchLink > -1) { LTLaunchLink = 'lt-' + window.location.hash.replace('#', ''); CallSelf(LTLaunchLink); SelectTab601(LTLaunchLink);var $window = jQuery(window); var myTop = jQuery('#LiveTabsWrapper601').offset().top; var windowTop = $window.scrollTop(); var windowBottom = windowTop + $window.height(); if (myTop > windowTop && myTop < windowBottom) {} else jQuery.scrollTo('#LiveTabsWrapper601',1500, {offset: {top: -150}});}else if(LTOldLaunchLink > -1) { LTLaunchLink = 'lt-' + window.location.hash.replace('#LiveTabsContent', ''); CallSelf(LTLaunchLink); SelectTab601(LTLaunchLink);} },select:function(event, ui) { if(ui.tab == undefined && ui.newTab != undefined) {var tabhref= jQuery(ui.newTab).children('a').attr('href'); if (tabhref.indexOf('#lt-') >= 0) window.location.hash = tabhref.replace('lt-', ''); }else {window.location.hash = ui.tab.hash.replace('lt-', '');}var LiveTabsWrapper601tabsindex=ui.index;if(LiveTabsWrapper601tabsindex == undefined){LiveTabsWrapper601tabsindex=ui.newTab.index();}jQuery('#LiveTabsWrapper601_SelectedIndex').val(LiveTabsWrapper601tabsindex);return true; },beforeActivate:function(event, ui) { if(ui.tab == undefined && ui.newTab != undefined) {var tabhref= jQuery(ui.newTab).children('a').attr('href'); if (tabhref.indexOf('#lt-') >= 0) window.location.hash = tabhref.replace('lt-', ''); }else {window.location.hash = ui.tab.hash.replace('lt-', '');}var LiveTabsWrapper601tabsindex=ui.index;if(LiveTabsWrapper601tabsindex == undefined){LiveTabsWrapper601tabsindex=ui.newTab.index();}jQuery('#LiveTabsWrapper601_SelectedIndex').val(LiveTabsWrapper601tabsindex);return true; },show:{ effect: 'fadeIn'},hide:{ effect: 'fadeOut'},fx:{ opacity: 'toggle' }});});}); }); }) } else { jQuery(function() {jQuery('#LiveTabsWrapper601').tabs({create:function(event, ui) { var LTLaunchLink = window.location.hash.indexOf('#601', 0); var LTOldLaunchLink = window.location.hash.indexOf('#LiveTabsContent', 0);if (LTLaunchLink > -1) { LTLaunchLink = 'lt-' + window.location.hash.replace('#', ''); CallSelf(LTLaunchLink); SelectTab601(LTLaunchLink);var $window = jQuery(window); var myTop = jQuery('#LiveTabsWrapper601').offset().top; var windowTop = $window.scrollTop(); var windowBottom = windowTop + $window.height(); if (myTop > windowTop && myTop < windowBottom) {} else jQuery.scrollTo('#LiveTabsWrapper601',1500, {offset: {top: -150}});}else if(LTOldLaunchLink > -1) { LTLaunchLink = 'lt-' + window.location.hash.replace('#LiveTabsContent', ''); CallSelf(LTLaunchLink); SelectTab601(LTLaunchLink);} },select:function(event, ui) { if(ui.tab == undefined && ui.newTab != undefined) {var tabhref= jQuery(ui.newTab).children('a').attr('href'); if (tabhref.indexOf('#lt-') >= 0) window.location.hash = tabhref.replace('lt-', ''); }else {window.location.hash = ui.tab.hash.replace('lt-', '');}var LiveTabsWrapper601tabsindex=ui.index;if(LiveTabsWrapper601tabsindex == undefined){LiveTabsWrapper601tabsindex=ui.newTab.index();}jQuery('#LiveTabsWrapper601_SelectedIndex').val(LiveTabsWrapper601tabsindex);return true; },beforeActivate:function(event, ui) { if(ui.tab == undefined && ui.newTab != undefined) {var tabhref= jQuery(ui.newTab).children('a').attr('href'); if (tabhref.indexOf('#lt-') >= 0) window.location.hash = tabhref.replace('lt-', ''); }else {window.location.hash = ui.tab.hash.replace('lt-', '');}var LiveTabsWrapper601tabsindex=ui.index;if(LiveTabsWrapper601tabsindex == undefined){LiveTabsWrapper601tabsindex=ui.newTab.index();}jQuery('#LiveTabsWrapper601_SelectedIndex').val(LiveTabsWrapper601tabsindex);return true; },show:{ effect: 'fadeIn'},hide:{ effect: 'fadeOut'},fx:{ opacity: 'toggle' }});}); }//]]>
-</script>
-
-    <?php  include('layouts/footer-script.php'); ?>
+<?php  include('layouts/footer-script.php'); ?>
