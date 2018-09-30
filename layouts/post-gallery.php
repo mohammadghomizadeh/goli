@@ -32,157 +32,167 @@
         <li class="is-on">
             <div class="box-item-wrapper">
                 <div class="box-item-option">
-                    <a href="http://prius.irtoya.com">
-                        <img alt="Prius" src="_Content/images/HomePage/Prius-Future.jpg" title="Prius"></a>
+                    <a href="featuer-single.php?action=<?php echo $row['type']; ?>">
+                        <img alt="<?php echo $row['title']; ?>" src="adminpanel/uploads/features/<?php echo $row['image']; ?>" title="<?php echo $row['title']; ?>">
+                    </a>
                     <div class="box-item-content">
-                        <a class="box-item-heading" href="http://prius.irtoya.com">آینده، همین الان!</a>
-                        <p class="box-item-text">جهت تجربه آنلاین پرفروش ترین خودروی هیبریدی دنیا، پریوس کلیک نمایید.</p>
+                        <a class="box-item-heading" href="featuer-single.php?action=<?php echo $row['type']; ?>"><?php echo $row['title']; ?></a>
+                        <p class="box-item-text"><?php echo substrwords($row['description'],100); ?></p>
                         <a class="box-item-link" href="featuer-single.php?action=<?php echo $row['type']; ?>">مشاهده ی جزییات</a>
                     </div>
                 </div>
             </div>
         </li>
         <?php }; ?>
+        <?php 
+        $resultpost= $db->select("main_feature","`type` = 'frosh-sazmani'");
+        foreach ($resultpost as $row){
+    ?>
         <li class="is-on">
             <div class="box-item-wrapper">
                 <div class="box-item-option">
-                    <a href="/فروش/فروش-سازمانی">
-                        <img alt="Organization Sales" src="_Content/images/HomePage/FleetSales.jpg" title="Organization Sales"></a>
+                    <a href="featuer-single.php?action=<?php echo $row['type']; ?>">
+                        <img alt="<?php echo $row['title']; ?>" src="adminpanel/uploads/features/<?php echo $row['image']; ?>" title="<?php echo $row['title']; ?>"></a>
                     <div class="box-item-content">
-                        <a class="box-item-heading" href="/فروش/فروش-سازمانی">فروش سازمانی</a>
-                        <p class="box-item-text">شرکت ایرتویا (نمایندگی انحصاری تویوتا ژاپن در ایران) با بیش از 42 سال سابقه درخشان در عرصه ...</p>
-                        <a class="box-item-link" href="/فروش/فروش-سازمانی">مشاهده ی جزییات</a>
+                        <a class="box-item-heading" href="featuer-single.php?action=<?php echo $row['type']; ?>"><?php echo $row['title']; ?></a>
+                        <p class="box-item-text"><?php echo substrwords($row['description'],100); ?></p>
+                        <a class="box-item-link" href="featuer-single.php?action=<?php echo $row['type']; ?>">مشاهده ی جزییات</a>
                     </div>
                 </div>
             </div>
         </li>
+        <?php }; ?>
+        <?php 
+            $resultpost= $db->select("main_feature","`type` = 'ameliat'");
+            foreach ($resultpost as $row){
+         ?>  
         <li class="is-on">
             <div class="box-item-wrapper">
                 <div class="box-item-option">
-                    <a href="/عاملیت-ها/لیست-عاملیت-ها"><img alt="Dealers" src="_Content/images/HomePage/local-specials.jpg" title="Dealers"></a>
+                    <a href="featuer-single.php?action=<?php echo $row['type']; ?>">
+                         <img alt="<?php echo $row['title']; ?>" src="adminpanel/uploads/features/<?php echo $row['image']; ?>" title="<?php echo $row['title']; ?>">
+                    </a>
                     <div class="box-item-content">
-                        <a class="box-item-heading" href="/عاملیت-ها/لیست-عاملیت-ها">عاملیت های سراسر ایران</a>
-                        <p class="box-item-text">عاملیت های فروش و خدمات پس از فروش شرکت ایرتویا را در سراسر کشور از اینجا بیابید.</p>
-                        <a class="box-item-link" href="/عاملیت-ها/لیست-عاملیت-ها">مشاهده ی جزییات</a>
+                        <a class="box-item-heading" href="featuer-single.php?action=<?php echo $row['type']; ?>"><?php echo $row['title']; ?></a>
+                        <p class="box-item-text"><?php echo substrwords($row['description'],100); ?></p>
+                        <a class="box-item-link" href="featuer-single.php?action=<?php echo $row['type']; ?>">مشاهده ی جزییات</a>
                     </div>
                 </div>
             </div>
         </li>
+        <?php }; ?>
+        <?php 
+            $resultpost= $db->select("main_feature","`type` = 'farakhani'");
+            foreach ($resultpost as $row){
+         ?>
         <li class="is-on">
-            <!--<div class="box-item-wrapper">
-                           <div class="box-item-option">
-                               <a href="/newsportal/international"><img alt="What is new in toyota" src="/portals/0/Images/HomePage/UpcomingNews.jpg" title="What is new in toyota" /></a>
-                               <div class="box-item-content">
-                                   <a class="box-item-heading" href="/newsportal/international">تازه های تویوتا </a>
-                                   <p class="box-item-text">پایگاه اطلاع رسانی و روابط عمومی شرکت ایرتویا در راستای اطلاع رسانی دقیق و بهنگام به مشتریان گرامی و وفادار تویوتا ، اقدام به انتشار آخرین اخبار ، رخدادها و تازه های تویوتا در ایران و سراسر جهان نموده است.</p>
-                                   <a class="box-item-link" href="/newsportal/international">مشاهده ی جزییات</a>
-                               </div>
-                           </div>
-                       </div>-->
             <div class="box-item-wrapper">
                 <div class="box-item-option">
-                    <a href="/irtoyacampaign"><img alt="What is new in toyota" src="_Content/images/HomePage/Corolla-Airbag.png" title="Corolla-Recall-AirBag"></a>
+                    <a href="featuer-single.php?action=<?php echo $row['type']; ?>">
+                    <img alt="<?php echo $row['title']; ?>" src="adminpanel/uploads/features/<?php echo $row['image']; ?>" title="<?php echo $row['title']; ?>"></a>
                     <div class="box-item-content">
-                        <a class="box-item-heading" href="/irtoyacampaign">طرح فراخوان تویوتا کرولا </a>
-                        <p class="box-item-text">پیرو فراخوان شرکت تویوتادر خصوص تعویض بعضی از قطعات سیستم ایربگ (کیسه هوا) خودروهای کرولا مدل های 2006 تا 2009 شرکت ایرتویا نمایندگی انحصاری تویوتای ژاپن در نظر دارد نسبت به اجرای این فراخوان به صورت رایگان اقدام نماید.</p>
-                        <a class="box-item-link" href="/irtoyacampaign">مشاهده ی جزییات</a>
+                        <a class="box-item-heading" href="featuer-single.php?action=<?php echo $row['type']; ?>"><?php echo $row['title']; ?></a>
+                        <p class="box-item-text"><?php echo substrwords($row['description'],100); ?></p>
+                        <a class="box-item-link" href="featuer-single.php?action=<?php echo $row['type']; ?>">مشاهده ی جزییات</a>
                     </div>
                 </div>
             </div>
         </li>
+        <?php }; ?>
+        <?php 
+            $resultpost= $db->select("main_feature","`type` = 'video'");
+            foreach ($resultpost as $row){
+         ?>
         <li class="is-on">
             <div class="box-item-wrapper">
                 <div class="box-item-option">
-                    <a href="/امداد-جاده-ای">
+                    <a href="featuer-single.php?action=<?php echo $row['type']; ?>">
                         <picture>
-                            <source media="(min-width: 1008px)" srcset="_Content/images/HomePage/RoadService.jpg">
-                            <source media="(max-width: 1007px)" srcset="_Content/images/HomePage/RoadService-mobile.jpg">
-                            <img alt="Road Services" src="_Content/images/HomePage/RoadService.jpg" title="Road Services">
+                            <source media="(min-width: 1008px)" srcset="adminpanel/uploads/features/<?php echo $row['image']; ?>">
+                            <source media="(max-width: 1007px)" srcset="adminpanel/uploads/features/<?php echo $row['image']; ?>">
+                            <img alt="<?php echo $row['title']; ?>" src="_Content/images/HomePage/RoadService.jpg" title="<?php echo $row['title']; ?>">
                         </picture>
                     </a>
                     <div class="box-item-content">
-                        <a class="box-item-heading" href="/امداد-جاده-ای">امداد جاده ای</a>
-                        <p class="box-item-text">به اطلاع کلیه هموطنان عزیز می رساند شرکت ایرتویا در راستای تکریم و رفاه حال هر چه بیشتر مشتریان اقدام به راه اندازی خدمات جاده ای نموده است ،جهت کسب اطلاعات بیشتر برروی ادامه کلیک نمایید.</p>
-                        <a class="box-item-link" href="/امداد-جاده-ای">مشاهده ی جزییات</a>
+                        <a class="box-item-heading" href="featuer-single.php?action=<?php echo $row['type']; ?>"><?php echo $row['title']; ?></a>
+                        <p class="box-item-text"><?php echo substrwords($row['description'],100); ?></p>
+                        <a class="box-item-link" href="featuer-single.php?action=<?php echo $row['type']; ?>">مشاهده ی جزییات</a>
                     </div>
                 </div>
             </div>
         </li>
+        <?php }; ?>
+        <?php 
+            $resultpost= $db->select("main_feature","`type` = 'app'");
+            foreach ($resultpost as $row){
+         ?>
         <li class="is-on">
             <div class="box-item-wrapper">
                 <div class="box-item-option">
-                    <a href="/نرم-افزار-موبایل-ایرتویا">
-                        <img alt="Mobile Software" src="_Content/images/HomePage/Mobile-software.jpg" title="Mobile Software">
+                    <a href="featuer-single.php?action=<?php echo $row['type']; ?>">
+                        <picture>
+                            <source media="(min-width: 1008px)" srcset="adminpanel/uploads/features/<?php echo $row['image']; ?>">
+                            <source media="(max-width: 1007px)" srcset="adminpanel/uploads/features/<?php echo $row['image']; ?>">
+                            <img alt="<?php echo $row['title']; ?>" src="_Content/images/HomePage/RoadService.jpg" title="<?php echo $row['title']; ?>">
+                        </picture>
                     </a>
                     <div class="box-item-content">
-                        <a class="box-item-heading" href="/نرم-افزار-موبایل-ایرتویا">دانلود نرم افزار موبایل</a>
-                        <p class="box-item-text">واحد انفورماتیک شرکت ایرتویا جهت تسهیل دسترسی علاقه مندان و مالکین خودروهای تویوتا به اطلاعات مربوط به این شرکت، اقدام به طراحی و تولید نرم افزار اختصاصی ایرتویا برای سیستم عامل های Android و iOS نموده است.</p>
-                        <a class="box-item-link" href="/نرم-افزار-موبایل-ایرتویا">مشاهده ی جزییات</a>
+                        <a class="box-item-heading" href="featuer-single.php?action=<?php echo $row['type']; ?>"><?php echo $row['title']; ?></a>
+                        <p class="box-item-text"><?php echo substrwords($row['description'],100); ?></p>
+                        <a class="box-item-link" href="featuer-single.php?action=<?php echo $row['type']; ?>">مشاهده ی جزییات</a>
                     </div>
                 </div>
             </div>
         </li>
+        <?php }; ?>
+        
+        <?php 
+            $resultpost= $db->select("main_feature","`type` = 'learning'");
+            foreach ($resultpost as $row){
+         ?>
         <li class="is-on">
             <div class="box-item-wrapper">
                 <div class="box-item-option">
-                    <a href="/خدمات-پس-از-فروش/نوبت-دهی-اینترنتی-ایرتویا">
-                        <img alt="Irtoya Online Reservation" src="_Content/images/HomePage/OnlineBooking.jpg" title="Irtoya Online Reservation"></a>
+                    <a href="featuer-single.php?action=<?php echo $row['type']; ?>">
+                        <picture>
+                            <source media="(min-width: 1008px)" srcset="adminpanel/uploads/features/<?php echo $row['image']; ?>">
+                            <source media="(max-width: 1007px)" srcset="adminpanel/uploads/features/<?php echo $row['image']; ?>">
+                            <img alt="<?php echo $row['title']; ?>" src="_Content/images/HomePage/RoadService.jpg" title="<?php echo $row['title']; ?>">
+                        </picture>
+                    </a>
                     <div class="box-item-content">
-                        <a class="box-item-heading" href="/خدمات-پس-از-فروش/نوبت-دهی-اینترنتی-ایرتویا">نوبت دهی اینترنتی</a>
-                        <p class="box-item-text">در راستای جلب رضایت مندی و ارج نهادن به وقت مشتریان گرامی،شرکت ایرتویا اقدام به راه اندازی خدمات نوبت دهی اینترنتی نموده است،لطفا جهت کسب اطلاعات بیشتر برروی لینک ادامه کلیک نمایید.</p>
-                        <a class="box-item-link" href="/خدمات-پس-از-فروش/نوبت-دهی-اینترنتی-ایرتویا">مشاهده ی جزییات</a>
+                        <a class="box-item-heading" href="featuer-single.php?action=<?php echo $row['type']; ?>"><?php echo $row['title']; ?></a>
+                        <p class="box-item-text"><?php echo substrwords($row['description'],100); ?></p>
+                        <a class="box-item-link" href="featuer-single.php?action=<?php echo $row['type']; ?>">مشاهده ی جزییات</a>
                     </div>
                 </div>
             </div>
         </li>
+        <?php }; ?>
+        <?php 
+            $resultpost= $db->select("main_feature","`type` = 'service-in-place'");
+            foreach ($resultpost as $row){
+         ?>
         <li class="is-on">
             <div class="box-item-wrapper">
                 <div class="box-item-option">
-                    <a href="http://industrial.irtoya.com"><img alt="Industrial" src="_Content/images/HomePage/HomeBox_img08.jpg" title="Industrial"></a>
+                    <a href="featuer-single.php?action=<?php echo $row['type']; ?>">
+                        <picture>
+                            <source media="(min-width: 1008px)" srcset="adminpanel/uploads/features/<?php echo $row['image']; ?>">
+                            <source media="(max-width: 1007px)" srcset="adminpanel/uploads/features/<?php echo $row['image']; ?>">
+                            <img alt="<?php echo $row['title']; ?>" src="_Content/images/HomePage/RoadService.jpg" title="<?php echo $row['title']; ?>">
+                        </picture>
+                    </a>
                     <div class="box-item-content">
-                        <a class="box-item-heading" href="http://industrial.irtoya.com">تجهیزات صنعتی(لیفتراک-ریچتراک)</a>
-                        <p class="box-item-text">واحد تجهیزات صنعتی شرکت ایرتویا فعالیت خود را از سال 1375 با وارد کردن تعداد محدودی لیفتراک جهت حضور در نمایشگاه های تخصصی آغاز نمود.جهت کسب اطلاعات بیشتر برروی ادامه کلیک نمایید.</p>
-                        <a class="box-item-link" href="http://industrial.irtoya.com">مشاهده ی جزییات</a>
+                        <a class="box-item-heading" href="featuer-single.php?action=<?php echo $row['type']; ?>"><?php echo $row['title']; ?></a>
+                        <p class="box-item-text"><?php echo substrwords($row['description'],100); ?></p>
+                        <a class="box-item-link" href="featuer-single.php?action=<?php echo $row['type']; ?>">مشاهده ی جزییات</a>
                     </div>
                 </div>
             </div>
         </li>
-        <li class="is-on">
-            <div class="box-item-wrapper">
-                <div class="box-item-option">
-                    <a href="/خدمات-پس-از-فروش/سامانه-سابقه-تعمیراتی-خودرو"><img alt="Repair" src="_Content/images/HomePage/repair-photo.jpg" title="Repair"></a>
-                    <div class="box-item-content">
-                        <a class="box-item-heading" href="/خدمات-پس-از-فروش/سامانه-سابقه-تعمیراتی-خودرو">سامانه سابقه تعمیراتی</a>
-                        <p class="box-item-text">" سوابق خودروهایی که به تعمیرگاه مرکزی مراجعه کرده اند قابل نمایش بوده ودر آینده نزدیک سوابق مشتریان سایر عاملیت ها نیز قابل مشاهده خواهد بود.</p>
-                        <a class="box-item-link" href="/خدمات-پس-از-فروش/سامانه-سابقه-تعمیراتی-خودرو">مشاهده ی جزییات</a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="is-on">
-            <div class="box-item-wrapper">
-                <div class="box-item-option">
-                    <a href="/خدمات-پس-از-فروش/آموزش"><img alt="Training" src="_Content/images/HomePage/HomeBox_img10.jpg" title="Training"></a>
-                    <div class="box-item-content">
-                        <a class="box-item-heading" href="/خدمات-پس-از-فروش/آموزش">کلاس آموزش مشتریان</a>
-                        <p class="box-item-text">در راستای رضایتمندی و رفاه شما مشتریان گرامی ، واحد آموزش ایرتویا اقدام به برگزاری کلاسهای آموزشی خودروهای تحویلی به مشتریان خود نموده است خواهشمند است جهت مدیریت بهتر برگزاری این کلاسها در صورت تقاضا را با کلیک برروی لینک ادامه در ذیل تکمیل نمایید</p>
-                        <a class="box-item-link" href="/خدمات-پس-از-فروش/آموزش">مشاهده ی جزییات</a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="is-on">
-            <div class="box-item-wrapper">
-                <div class="box-item-option">
-                    <a href="/خدمات-پس-از-فروش/خدمات-پس-از-فروش/سرویس"><img alt="Toyota care" src="_Content/images/HomePage/Service-LC.jpg" title="Toyota care"></a>
-                    <div class="box-item-content">
-                        <a class="box-item-heading" href="/خدمات-پس-از-فروش/خدمات-پس-از-فروش/سرویس">خدمات سرویس در محل</a>
-                        <p class="box-item-text">خدمات "سرویس در محل" با حفظ گارانتی خودروی مشتریان و بدون نیاز به مراجعه مشتری به دفتر مرکزی، از شنبه تا پنجشنبه از ساعت 10 صبح الی 6 بعد از ظهر قابل انجام است. لازم به ذکر است مشتریانی که خودروی آنان فاقد گارانتی می باشد نیز می توانند از این خدمات استفاده نمایند.</p>
-                        <a class="box-item-link" href="/خدمات-پس-از-فروش/خدمات-پس-از-فروش/سرویس">مشاهده ی جزییات</a>
-                    </div>
-                </div>
-            </div>
-        </li>
+        <?php }; ?>
+        
     </ul>
     <button class="mbl-view-more">مشاهده بیشتر</button>
 </div>

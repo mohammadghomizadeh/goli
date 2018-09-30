@@ -143,7 +143,7 @@ if(isset($_GET['action']))
 
           <div class="box">
           <div class="box-header">
-            <h3 class="box-title">لیست مقاله ها </h3>
+            <h3 class="box-title">ویژگی های صفحه اصلی </h3>
 
             <div class="box-tools">
               <div class="input-group input-group-sm" style="width: 150px;">
@@ -163,6 +163,7 @@ if(isset($_GET['action']))
                 <th>ردیف</th>
                 <th>تصویر</th>
                 <th>عنوان</th>
+                <th>نوع</th>
                 <th>تاریخ</th>
                 <th>وضعیت</th>
                
@@ -182,6 +183,7 @@ if(isset($_GET['action']))
                 <td><?php echo $i; ?></td>
                 <td><img src="uploads/features/<?php echo $row['image'];  ?>" width="20" height="20"/></td>
                 <td><?php echo $row['title']; ?></td>
+                <td><?php echo $row['type']; ?></td>
                 <td><?php echo $row['create_at']; ?></td>
                 <td><span class="label label-success"><?php echo $row['status']; ?></span></td>
                 

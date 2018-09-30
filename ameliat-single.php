@@ -308,7 +308,7 @@
                                                                         <div class="dealer_view_template_row1">
                                                                             <div class="box_photos_all">
                                                                                 <div class="larg_picture">
-                                                                                    <img src="adminpanel/uploads/agancy/<?php echo $rowameliat['image']; ?>"
+                                                                                    <img src="adminpanel/uploads/agencyes/<?php echo $rowameliat['image']; ?>"
                                                                                              width="250" height="350"
                                                                                          alt="Daisy on the Ohoopee"
                                                                                          class="first_img_zoom">

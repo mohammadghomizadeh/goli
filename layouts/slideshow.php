@@ -4,34 +4,41 @@
          <div id="dnn_ctr432_ModuleContent" class="DNNModuleContent ModLiveSliderC">
 	<div id="LiveSlider432" style="width: 1462px; height: 507.801px; visibility: visible;" class="ls-container ls-v5">
         <div class="ls-inner" style="background-color: transparent; width: 1462px; height: 508px;">
+            
             <div class="ls-lt-container ls-overflow-hidden" style="width: 1462px; height: 508px; display: block;">
                 <div class="ls-curtiles" style="overflow: hidden;">
                     <div class="ls-lt-tile" style="width: 1462px; height: 508px; overflow: hidden;">
                         <div class="ls-curtile">
-                            <img src="_Content/images/Sliders/Sld2-bg5406.jpg" style="width: 1535.1px; height: 507.801px; margin-left: -36.55px; margin-top: 0.0993333px;"></div>
+                            <img src="_Content/images/Sliders/Sld2-bg5406.jpg" style="width: 1535.1px; height: 507.801px; margin-left: -36.55px; margin-top: 0.0993333px;">
+                        </div>
                     </div>
                 </div>
                 <div class="ls-nexttiles">
                     <div class="ls-lt-tile" style="width: 1462px; height: 508px; overflow: hidden;">
                         <div class="ls-nexttile" style="top: 0px; left: 0px; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-                            <img src="_Content/images/Sliders/Sld2-Caraffc.png" style="width: 1535.1px; height: 507.801px; margin-left: -36.55px; margin-top: 0.0993333px;"></div>
+                            <img src="_Content/images/Sliders/Sld2-Caraffc.png" style="width: 1535.1px; height: 507.801px; margin-left: -36.55px; margin-top: 0.0993333px;">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="ls-slide ls-slide-1" data-ls="slidedelay: 6000; transition2d: 5; " style="width: 0px; height: 508px; visibility: visible; display: none; left: 0px; right: auto; top: 0px; bottom: auto;">
                 <img src="_Content/images/Sliders/Sld4-bgc55d.jpg" class="ls-bg ls-preloaded" alt="" style="padding: 0px; border-width: 0px; width: 1535.1px; height: 507.801px; margin-left: -36.55px; margin-top: 0.0993333px; visibility: hidden;">
-                <div class="ls-gpuhack" style="width: auto; height: auto; padding: 0px; border-width: 0px; left: 0px; top: 0px;">
+               
 
-                </div>
-                <div class="ls-l" style="width: 250.489px; height: 348.931px; padding: 29.24px 42.8853px 19.4933px; border-width: 0px; border-style: initial; border-color: initial; line-height: normal; background-color: transparent; border-radius: 0px; top: 0px; left: 180.313px; word-wrap: normal; font-size: 9.74667px; visibility: hidden; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; filter: none;" data-ls="offsetxin: 0; offsetxout: 0; delayin: 2000; ">
-                    <div class="slideshow_paragraph">
-    <h2><span>در پیست اختصاصی ایرتویا ...</span></h2>
-    <br>
-    <br>
-    <h1><span>تجربه تست درایو خودروهای تویوتا</span><br></h1>
-    <h4><span>جهت کسب اطلاعات بیشتر کلیک نمایید</span><a href="/-محصولات/محصولات-تویوتا/agentType/View/PropertyID/10">مشاهده</a></h4>
+
+<a class="ls-l" href="https://arita.irtoya.com/-%D8%AA%D8%B3%D8%AA-%D8%AF%D8%B1%D8%A7%DB%8C%D9%88-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86" style="top: 58.48px; left: 467.84px; display: block; visibility: hidden; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1462, 0, 0, 1); opacity: 1; filter: none;" data-ls="offsetxin: 1500; offsetxout: -1500; delayin: 200; durationin: 2000; durationout: 2000; ">
+<img style="width: 651.077px; height: 347.956px; padding: 0px; border-width: 0px; border-style: initial; border-color: initial; line-height: normal; background-color: transparent; border-radius: 0px; word-wrap: normal;" src="_Content/images/Sliders/Sld4-Cardf80.png" class="ls-preloaded">
+</a>
+<a href="https://arita.irtoya.com/-تست-درایو-رایگان" class="ls-link ls-preloaded" style="width: 97.4667px; height: 97.4667px; font-size: 9.74667px; padding: 0px; border-width: 0px; left: 0px; top: 0px; visibility: hidden; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -77.9733, 0, 0, 1); opacity: 1; filter: none;">
+</a>
 </div>
-</div><a class="ls-l" href="https://arita.irtoya.com/-%D8%AA%D8%B3%D8%AA-%D8%AF%D8%B1%D8%A7%DB%8C%D9%88-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86" style="top: 58.48px; left: 467.84px; display: block; visibility: hidden; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1462, 0, 0, 1); opacity: 1; filter: none;" data-ls="offsetxin: 1500; offsetxout: -1500; delayin: 200; durationin: 2000; durationout: 2000; "><img style="width: 651.077px; height: 347.956px; padding: 0px; border-width: 0px; border-style: initial; border-color: initial; line-height: normal; background-color: transparent; border-radius: 0px; word-wrap: normal;" src="_Content/images/Sliders/Sld4-Cardf80.png" class="ls-preloaded"></a><a href="https://arita.irtoya.com/-تست-درایو-رایگان" class="ls-link ls-preloaded" style="width: 97.4667px; height: 97.4667px; font-size: 9.74667px; padding: 0px; border-width: 0px; left: 0px; top: 0px; visibility: hidden; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -77.9733, 0, 0, 1); opacity: 1; filter: none;"></a></div><div class="ls-slide ls-slide-2 ls-active" data-ls="slidedelay: 6000; transition2d: 5; " style="width: 1462px; height: 508px; visibility: visible; display: none; left: auto; right: 0px; top: 0px; bottom: auto;"><img src="_Content/images/Sliders/Sld3-bg.jpg?ver=1396-12-12-210104-693" class="ls-bg ls-preloaded" alt="" style="padding: 0px; border-width: 0px; width: 1535.1px; height: 507.801px; margin-left: -36.55px; margin-top: 0.0993333px; visibility: visible;"><div class="ls-gpuhack" style="width: auto; height: auto; padding: 0px; border-width: 0px; left: 0px; top: 0px;"></div><div class="ls-l" style="width: 250.489px; height: 348.931px; padding: 29.24px 42.8853px 19.4933px; border-width: 0px; border-style: initial; border-color: initial; line-height: normal; background-color: transparent; border-radius: 0px; top: 0px; left: 180.313px; word-wrap: normal; font-size: 9.74667px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; visibility: visible; filter: none;" data-ls="offsetxin: 0; offsetxout: 0; delayin: 2000; "><div class="slideshow_paragraph">
+<div class="ls-slide ls-slide-2 ls-active" data-ls="slidedelay: 6000; transition2d: 5; " style="width: 1462px; height: 508px; visibility: visible; display: none; left: auto; right: 0px; top: 0px; bottom: auto;">
+    <img src="_Content/images/Sliders/Sld3-bg.jpg?ver=1396-12-12-210104-693" class="ls-bg ls-preloaded" alt="" style="padding: 0px; border-width: 0px; width: 1535.1px; height: 507.801px; margin-left: -36.55px; margin-top: 0.0993333px; visibility: visible;">
+    <div class="ls-gpuhack" style="width: auto; height: auto; padding: 0px; border-width: 0px; left: 0px; top: 0px;">
+
+    </div>
+    <div class="ls-l" style="width: 250.489px; height: 348.931px; padding: 29.24px 42.8853px 19.4933px; border-width: 0px; border-style: initial; border-color: initial; line-height: normal; background-color: transparent; border-radius: 0px; top: 0px; left: 180.313px; word-wrap: normal; font-size: 9.74667px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; visibility: visible; filter: none;" data-ls="offsetxin: 0; offsetxout: 0; delayin: 2000; ">
+        <div class="slideshow_paragraph">
     <h2><span>شباهت اصالت نیست !</span></h2>
     <br>
     <br>

@@ -180,6 +180,7 @@
                         </a>
                         <ul class="treeview-menu" style="display:block;">
                             <li><a href="index.php?page=setting&action=setting"><i class="fa fa-circle-o"></i>تنظیمات سایت </a></li>
+                            <li><a href="index.php?page=footer&action=list"><i class="fa fa-circle-o"></i>فوتر سایت</a></li>
                             <li><a href="index.php?page=slideshow&action=list"><i class="fa fa-circle-o"></i>اسلایدشو اصلی</a></li>
                             <li><a href="index.php?page=setting&action=social"><i class="fa fa-circle-o"></i>شبکه های اجتماعی</a></li>
                             <li><a href="index.php?page=about-edit"><i class="fa fa-circle-o"></i>درباره ما</a></li>
