@@ -5,12 +5,12 @@
 	<div class="rd-links-tmp">
     <div class="rd-links">
         <ul>
-            <li><a href="/newsportal">
+            <li><a href="contactus.php">
                 <div class="rd-links-items">
                     <div class="svg-container"> <!--?xml version="1.0" standalone="no" ?-->
                        <img src="http://asantablo.com/php/_Content/images/servise/4.png">
                     </div>
-                    پرتال خبری شرکت
+                    پشتیبانی
                 </div>
             </a></li>
             <li>
@@ -20,23 +20,23 @@
                         <div class="svg-container"> <!--?xml version="1.0" standalone="no" ?-->
                      <img src="http://asantablo.com/php/_Content/images/servise/1.png">
                         </div>
-                        بخشنامه و لیست قیمت ها
+                        دانلودها
                     </div>
                 </a></li>
-            <li><a href="/تست-درایو-رایگان-خودروی-پریوس">
+            <li><a href="news.php">
                 <div class="rd-links-items">
                     <div class="svg-container"> <!--?xml version="1.0" standalone="no" ?-->
                       <img src="http://asantablo.com/php/_Content/images/servise/3.png">
                     </div>
-                    رزرو تست درایو
+                    اخبار
                 </div>
             </a></li>
-            <li><a href="http://parts.irtoya.com">
+            <li><a href="articles.php">
                 <div class="rd-links-items">
                     <div class="svg-container"> <!--?xml version="1.0" standalone="no" ?-->
-                     <img src="http://asantablo.com/php/_Content/images/servise/1.png">
+                     <img src="http://asantablo.com/php/_Content/images/servise/2.png">
                     </div>
-                    فروشگاه آنلاین قطعات
+                    مقالات
                 </div>
             </a></li>
         </ul>
