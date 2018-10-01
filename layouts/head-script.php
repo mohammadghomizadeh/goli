@@ -90,7 +90,7 @@
 </head>
 <body id="Body" class="rtl">
     
-    <form method="post" action="https://www.irtoya.com/" id="Form" enctype="multipart/form-data">
+ 
             <script type="text/javascript">
             //<![CDATA[
             var theForm = document.forms['Form'];

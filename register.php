@@ -3,9 +3,11 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!--CDF(Css|/Portals/0/Skins/Irtoya1393/css/HomePage.css)-->
+
 <div class="body_bg">
     <div id="dnn_wrapper" style=" background: rgb(239, 240, 244) none repeat scroll 0 0;">
     <?php include('layouts/header.php'); ?>
+
             <div class="main-area">
                 <div class="Mian_Box">
                     <div class="content_mid clearfix" style="padding:0;">
@@ -166,6 +168,8 @@
         <div class="dnnFormMessage dnnFormInfo"><span id="dnn_ctr_Register_userHelpLabel"><strong>*توجه:</strong> عضویت در این وب سایت نیازمند تأیید آدرس ایمیل شما می&zwnj;باشد. به محض ثبت&zwnj;نام در وب&zwnj;سایت، ایمیلی حاوی لینک فعال&zwnj;سازی حساب کاربری به صندوق پستی شما ارسال خواهد شد. لطفا توجه داشته باشید پر کردن تمام فیلدهای ستاره&zwnj;دار الزامی می&zwnj;باشد. - <em>(<strong>توجه:</strong> - فرایند ثبت&zwnj;نام ممکن است چندین ثانیه زمان ببرد. پس از کلیک بر روی دکمه ثبت&zwnj;نام، تا زمان پاسخ سیستم منتظر بمانید.)</em></span></div>
     </div>
     <br>
+   
+    <form method="POST" action="register-insert.php" enctype="multipart/form-data">
     <div class="dnnFormItem dnnClear">
         <div id="dnn_ctr_Register_userForm" class="dnnForm">
 				<div id="dnn_ctr_Register_userForm_d7d6ddc47ca54c44a1c664b77c9e5a22" class="dnnFormItem dnnFormShort">
@@ -223,10 +227,11 @@
     
     <input name="dnn$ctr$Register$gotcha" type="text" id="dnn_ctr_Register_gotcha" style="display: none;" autocomplete="off">
     <ul id="dnn_ctr_Register_actionsRow" class="dnnActions dnnClear">
-        <li><a id="dnn_ctr_Register_registerButton" title="ثبت&zwnj;نام" class="dnnPrimaryAction" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("dnn$ctr$Register$registerButton", "", true, "", "", false, true))'>ثبت&zwnj;نام</a></li>
-        <li><a id="dnn_ctr_Register_cancelLink" class="dnnSecondaryAction" causesvalidation="false" href="https://www.irtoya.com/">انصراف</a></li>
+        <li><input id="dnn_ctr_Register_registerButton"  class="dnnPrimaryAction" type="submit" value="ثبت نام" ></li>
+        <li><a id="dnn_ctr_Register_cancelLink" class="dnnSecondaryAction" causesvalidation="false" href="">انصراف</a></li>
     </ul>
 </div>
+</form>
 <script type="text/javascript">
     $(function () {
         $('.dnnFormItem .dnnLabel').each(function () {
